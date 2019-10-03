@@ -1,0 +1,16 @@
+{
+  "name": "Purple pay credit card identifier",
+  "version": "1.0.0",
+  "description": "Purple pay credit card identifier",
+  "main": "server.js",
+  "scripts": {
+    "start": "PGUSER=postgres PGHOST=localhost PGDATABASE=purplepay PGPORT=5432 node server.js",
+    "test": "mocha --recursive --exit"
+  },
+  "author": "MYOB",
+  "license": "MIT",
+  "dependencies": {
+    "request": "2.88.0",
+    "pg": "7.12.1"
+  }
+}
